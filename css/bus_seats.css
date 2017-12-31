@@ -1,0 +1,37 @@
+.tbl-bus-seats, .tbl-bus-seats th, .tbl-bus-seats td {
+	border: 1px solid black;
+}
+.tbl-bus-seats th, .tbl-bus-seats td {		
+	padding: 15px;
+}
+.tbl-bus-seats .filled {
+	background-color: red;
+	color: white;
+}
+.tbl-bus-seats .unfilled:hover{
+	background-color: blue;
+	cursor: pointer;
+	color: white;
+}
+.cellClick{
+	background-color: yellow;
+}
+
+.cellClick-fade{
+	-webkit-animation-name: myFade; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+	animation-name: myFade;
+	animation-duration: 3s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes myFade {
+	from {background-color: yellow;}
+	to {background-color: white;}
+}
+
+/* standard syntax */
+@keyframes myFade {
+	from {background-color: yellow;}
+	to {background-color: white;}
+}

@@ -1,0 +1,6 @@
+notes:
+in reserved_passengers.php page, some js codes won't work inside reservation.js $(document).on() function
+like setting alert() or localStorage. but the ajax will work.
+i used ajax to call the confirm_reservation() method of php when clicking the "pending" button in reserved_passengers page.
+but i used post form submit to refresh my page.
+this caused complexity in my work
